@@ -1,8 +1,3 @@
-"""Run only the all-cell-calibrated I-294 OL/SF/OF experiments.
-
-Existing shared simulation code is used without modification. Existing output
-directories are rejected so archived results cannot be silently overwritten.
-"""
 from __future__ import annotations
 
 import argparse

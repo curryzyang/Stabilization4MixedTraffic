@@ -1,9 +1,3 @@
-"""Design-input PI controller and ideal amplitude/slew limiter.
-
-The linearized plant and exact kernels are reused without modifying production
-sources. Slew limiting uses hybrid tracking/ramp phases: no tracking gain or
-independent first-order time constant is present.
-"""
 from dataclasses import dataclass, asdict
 import numpy as np
 from scipy.integrate import solve_ivp

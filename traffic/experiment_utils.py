@@ -1,4 +1,3 @@
-"""Preserved experiment helpers and shared result I/O."""
 from pathlib import Path
 from dataclasses import replace, asdict
 import json

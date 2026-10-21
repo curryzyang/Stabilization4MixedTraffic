@@ -1,4 +1,3 @@
-"""Named, independent entry points around the existing numerical solvers."""
 from pathlib import Path
 from dataclasses import replace, asdict
 import argparse

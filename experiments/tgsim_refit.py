@@ -1,9 +1,3 @@
-"""Reproduce the all-1133-cell Huber fit from locally generated screened cells.
-
-This repeats fitting/cluster bootstrap/plotting from locally generated Edie
-cells. It cannot independently validate raw cleaning or coverage screening.
-Use tgsim_calibration.py for the optional complete raw-data path.
-"""
 from pathlib import Path
 import argparse
 import hashlib

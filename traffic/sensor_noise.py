@@ -1,8 +1,3 @@
-"""Physical boundary-channel implementation used by the sensor-noise experiment.
-
-These experiments retain the nominal linearized plant. No robustness theorem is
-implied. All feedback is evaluated during the ODE solve, not clipped afterwards.
-"""
 from __future__ import annotations
 from dataclasses import dataclass, asdict
 import numpy as np

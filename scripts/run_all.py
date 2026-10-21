@@ -1,4 +1,3 @@
-"""Run simulations; include TGSIM calibration when a local raw-data file is supplied."""
 from pathlib import Path
 import argparse
 import subprocess

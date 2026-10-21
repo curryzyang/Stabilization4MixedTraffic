@@ -1,8 +1,3 @@
-"""Physical-domain simulation of the nominal LINEARIZED ARZ system.
-
-Numerical state u is bar w, not density; v is the speed perturbation.
-All physical reconstruction, boundary actuation and metrics use SI units.
-"""
 from __future__ import annotations
 from dataclasses import dataclass, asdict
 import numpy as np

@@ -1,4 +1,3 @@
-"""Generate optional figures from the saved numerical data; never run simulations."""
 from pathlib import Path
 import argparse
 import sys

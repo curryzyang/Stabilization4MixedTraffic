@@ -1,8 +1,3 @@
-"""I-294 all-valid-cell calibration: fixed vf and length-derived kj.
-
-Camera coverage is a conservative trajectory-envelope PROXY, not observed FOV.
-Original trajectory data are never modified. Only backward wave speed is fitted.
-"""
 from pathlib import Path
 import argparse,json,hashlib
 import numpy as np,pandas as pd

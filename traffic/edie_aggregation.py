@@ -1,4 +1,3 @@
-"""Split trajectory segments at exact space-time cell boundaries."""
 import numpy as np
 
 def _segment_parts(t0: float, t1: float, x0: float, x1: float, dt_cell: float, dx_cell: float, x_origin: float):
